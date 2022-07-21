@@ -1,6 +1,6 @@
-- name: Setup Bun Runtime
-  uses: antongolub/action-setup-bun@v1 # or @v1.x.x
-  with:
+name: Setup Bun Runtime
+uses:antongolub/action-setup-bun@v1 # or @v1.x.x
+with:
     # Optional, if empty the latest bun version will be used
     # Examples: 0.0.77, 0.1.2, >=0.1, *
     bun-version: 0.1.2
@@ -34,5 +34,5 @@
     # Optional. Defaults to ${{ github.token }}
     token: 'gh-token'
 
-- name: Run script
+name: Run script
   run: bun index.js
