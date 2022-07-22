@@ -34,5 +34,4 @@ with:
     # Optional. Defaults to ${{ github.token }}
     token: 'gh-token'
 
-name: Run script
   run: bun index.js
